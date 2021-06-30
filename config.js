@@ -1,9 +1,9 @@
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
-  host: "database4pragati.mysql.database.azure.com",
-  user: "databaseadmin@database4pragati",
-  password:"pragati@2021",
-  database:"database4pragati",
+  host: "yourhost",
+  user: "your database username",
+  password:"password",
+  database:"databsename",
   port: 3306,
   ssl:true
 });
